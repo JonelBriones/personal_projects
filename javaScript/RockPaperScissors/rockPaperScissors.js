@@ -7,7 +7,6 @@ function playRound(playerSelection,computerSelection) {
         console.log(("Player Won! scissor beats paper!"))
     } else if (playerSelection == "paper" && computerSelection == "scissor") {
         console.log(("Computer Won! scissor beats paper!"))
-
     } else if (playerSelection == "paper" && computerSelection == "rock") {
         console.log(("Player Won! paper beats rock!"))
     } else if (playerSelection == "rock" && computerSelection == "paper") {
@@ -25,15 +24,12 @@ function computerPlay() {
 }
 function game() {
     for (let i = 1; i <6; i++) {
-        const playerSelection ="scissor";
+        let answer = (prompt("Choose rock, paper or scissor"));
+        const playerSelection = answer;
         const computerSelection = computerPlay();
         playRound(playerSelection,computerSelection);
         console.log("Game " + i + " Over!\n")
     }
 
 }
-
-// const playerSelection ="rock";
-// const computerSelection = "paper"
-// const computerSelection = computerPlay();
 game();
