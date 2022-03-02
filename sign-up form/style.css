@@ -1,0 +1,57 @@
+* {
+    font-family: 'Libre Franklin', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.wrapper {
+    background-color: black;
+    display: flex;
+}
+.container {
+    display: flex;
+    margin: auto;
+    height: 100%;
+    border: 2px solid purple;
+}
+img {
+    width: 300px;
+}
+.right-display {
+    display: flex;
+    height: 300px;
+    
+}
+header {
+    background-color: rgba(255, 255, 255, 0.901);
+    height: 60%;
+    padding: 20px;
+    bottom: 20px;
+}
+header h1 {
+    margin: 50px 20px;
+}
+header h2 {
+    margin: -30px 20px;
+}
+form {
+    background-color: white;
+    padding: 20px;
+
+}
+form h2 {
+    display: inline;
+
+}
+.form-name label {
+    display: inline;
+}
+form .form-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 0 12px 0;
+}
+.btn {
+    top: 80px;
+    display: inline;
+}
