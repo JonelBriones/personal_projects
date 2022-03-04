@@ -54,10 +54,11 @@ header nav a {
 }
 .btn {
     background-color: #3882F6;
+    border: 0px;
     color: #E5E7EB;
     margin-top: 10px;
-    padding: 2px 10px;
-    border-radius: 10px;
+    padding: 4px 12px;
+    border-radius: 5px;
 }
 .section-2-container {
     background-color: #F9FAF8;
@@ -78,5 +79,50 @@ header nav a {
     height: 100px;
     border-radius: 10px;
 }
+.section-container-3 {
+    background-color: #E5E7EB;
+    padding: 40px;
+}
+.quote {
+    color: #1F2937;
+    font-style: italic;
+    font-weight: 100;
+    align-items: center;
+    padding: 50px;
+    font-size: 20px;
+}
+.quote-by {
+    font-weight: bold;
+    text-align:right;
+}
+.section-container-4 {
+    background-color: #F9FAF8;
+}
+
+.section-4 {
+    padding: 40px;
+    display: flex;
+    background-color: #3882F6;
+    border-radius: 10px;
+    color: #F9FAF8;
+    margin: 40px;
+    justify-content: space-evenly;
+}
+
+.section-4 .btn {
+    border: 1px solid #F9FAF8;
+    border-radius: 5px;
+    justify-content: center;
+}
+footer {
+    text-align: center;
+    color: #F9FAF8;
+    background-color: #1F2937;
+    padding: 10px;
+    font-size: 12px;
+}
+
+
+
 
 
