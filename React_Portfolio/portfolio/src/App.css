@@ -1,0 +1,59 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.App {
+  text-align: center;
+}
+.wrapper {
+  background-color: #89e9f6;
+  color:rgba(39, 34, 34, 0.687);
+}
+hr {
+  background-color:rgba(39, 34, 34, 0.687);
+  height: 3px;
+}
+.container {
+  margin:auto;
+  width: 1000px;
+  font-size: 28px;
+}
+
+.navbar {
+  border: 2px solid red;
+  height: 50px;
+  margin:auto;
+  width: 1000px;
+  align-items: center;
+  display: flex;
+}
+.navbar h1 {
+  flex:1;
+  justify-content: flex-start;
+}
+.links {
+  flex:1;
+
+  display: flex;
+  justify-content:space-evenly;
+  border: 2px solid red;
+}
+li {
+  border: 2px solid white;
+  list-style-type: none;
+
+}
+.about {
+  display: flex;
+
+}
+.about-summary h1 {
+  flex:1;
+
+  border:2px solid red;
+}
+.about-summary p {
+  flex:1;
+  border:2px solid red;
+}
+
